@@ -21,3 +21,28 @@ Returns
 
 
 <img width="567" alt="image" src="https://github.com/user-attachments/assets/dab5c755-d6da-4007-a3eb-bb2c41875057" />
+
+
+`` Solution: ``
+
+```
+
+function sockMerchant(n, ar) {
+    // Write your code here
+    let result = {};
+    let pair = 0;
+    [... Object.values(ar)]
+                .sort((a,b) => a - b)
+                .forEach((value) => {
+                    result[value] = (result[value] || 0) + 1;
+                    if ((result[value] % 2 === 0 )){
+                        pair ++;
+                    } 
+                });
+
+    return pair;
+}
+
+```
+
+Success! Just solved Sales by Match on @HackerRank. Can you complete the challenge? https://hr.gs/eabbdd #programming 
