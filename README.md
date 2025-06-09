@@ -23,7 +23,9 @@ Returns
 <img width="567" alt="image" src="https://github.com/user-attachments/assets/dab5c755-d6da-4007-a3eb-bb2c41875057" />
 
 
-`` Solution: ``
+
+
+# Solution: 
 
 ```
 
